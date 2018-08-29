@@ -11,6 +11,8 @@ You can preview what your Markdown file will look like when styles are added by 
 
 ***Q1. The above paragraph and this sentence use markdown in a few ways.  Give a brief description of anything unusual you notice.  Just enter your description on the lines below:***
 
+Its interesting to note that you don't have to order the numbers to have them correctly displayed (i.e. 1. 1. 1. will show up as 1. 2. 3. in a list).  Further, it is automatically indented.
+
 ### Lists
 
 Create a numbered list of five of your favorite foods in-order from favorite to least favorite in the designated area below. Be sure to include at least two things that are made of multiple ingredients.  
@@ -19,11 +21,37 @@ For each item that has multiple ingredients, create a sub list of a few (2-5) of
 
 ***Q2. Create your list here:***
 
+1. pho
+  1. noodles
+  1. beef broth
+  1. Mint
+1. Korean food
+  1. spices
+  1. kimchi
+  1. rice
+3. Omletes
+  1. eggs
+  1. peppers
+  1. onions
+4. Grilled chicken
+  1. chicken
+  1. peppers
+  1. salt
+5. Spagetti and meatballs
+  1. tomato sauce
+  1. noodles
+  1. meatballs
+  1. garlic bread
+
+
+
 ### Headings
 
 Headings and sub-headings help separate the content of a document.
 
 ***Q3. Add a new third tier heading to this document named "My Heading" here:***
+
+#### My Headings
 
 ### Code
 
@@ -31,11 +59,25 @@ Markdown is often used to document code.  Consequently, it supports embedding co
 
 ***Q4. Create a code block below and include a Java `for`-loop that prints numbers from 0 to 10. Be sure to indicate that it's Java, which will cause Java keywords to be highlighted (for example, depending on your configuration `for` may be purple in the preview window; `int` may be orange, etc.):***
 
+```java
+for (x = 0, x < 11, x = x + 1)
+{
+  System.out.print( x );
+}
+```
+
 ## Part 2: What is IoT
 
 This class is about IoT.  [Postscapes](https://www.postscapes.com/internet-of-things-examples/) has a list of examples of IoT.  Pick any three categories (Body, Home City, Industry, etc.) and review any one example of each.
 
 ***Q5.  Based on your reviews, create a table of the top four distinguishing features of IoT applications. One column of the table should have a brief name for the feature (1-4 words) and the second column should have an explanation:***
+
+Feature Name | Explanation
+------------ | -------------
+Interconnectedness | IoT devices and applications feature an interconnectedness, whether to other devices, the internet, or some other medium
+Making Life Better | All the examples I read sought to solve some problem to make life easier (keeping streets clean, not forgetting items, etc.)
+Wirelessness | whether implied or not, these devices tend to be wireless, occasionally needing a power source depending on the tool
+Integration | These devices are typically integrated into computers, homes, or something already used
 
 Search for some additional IoT examples at other sites and find two examples that you find interesting.
 
@@ -47,4 +89,8 @@ Compare your previous work with other people in the class and try to come to a c
 
 ***Q7. Meet someone new.  Find a class member who you don't already know and introduce yourself.  Compare your work conclusions to the above IoT questions. Again, using a list indicate: 1) Who you worked with, and 2) Any discrepancies or interesting observations that arise from comparing your work:***
 
+Joined class on 8/29/18
+
 ***Q8. Meet someone else new.  Find another class member who you don't already know and introduce your self.  Again compare your work as before:***
+
+Joined class on 8/29/18
